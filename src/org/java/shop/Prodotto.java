@@ -62,6 +62,11 @@ public class Prodotto {
 //		System.out.println(prezzoConIva);
 //		return prezzoConIva;
 //	}
+
+	@Override
+	public String toString() {
+		return "Nome prodotto: " + getNome() + "\ncodice: " + getCodice() + "\nmarca: " + getMarca() + "\nprezzo: " + getPrezzo() + "\nmarca: " + getMarca() + "\niva: " + getIva();
+	}
 	
 	
 	

@@ -8,8 +8,8 @@ public class Carrello {
 //		System.out.print("Inserisci il prodotto: ");
 //		String input = sc.nextLine();
 		
-//		Prodotto prodotto1 = new Prodotto("123465789", "Test", "LG", 1030, 22);
-//		
-//		System.out.println("Prodotto: " + prodotto1);
+		Prodotto prodotto1 = new Prodotto("123465789", "Test", "LG", 1030, 22);
+		
+		System.out.println("Prodotto: " + prodotto1);
 	}
 }

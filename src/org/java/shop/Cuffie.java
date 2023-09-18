@@ -27,6 +27,9 @@ public class Cuffie extends Prodotto{
 		this.wireless = wireless;
 	}
 	
-	
+	@Override
+	public String toString() {
+		return "\ncolore: " + getColore() + "\nwireless: " + getWireless();
+	}
 
 }
