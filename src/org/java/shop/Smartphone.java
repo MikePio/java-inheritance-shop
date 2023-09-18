@@ -29,6 +29,6 @@ public class Smartphone extends Prodotto{
 
 	@Override
 	public String toString() {
-		return "\nimei: " + getImei() + "\nmemoria: " + getMemoria();
+		return "Nome prodotto: " + getNome() + "\ncodice: " + getCodice() + "\nmarca: " + getMarca() + "\nprezzo: " + getPrezzo() + "\nmarca: " + getMarca() + "\niva: " + getIva() + "\nPrezzo + iva: " + calcoloPrezzoConIva(getPrezzo(), getIva()) + "\nCodice IMEI: " + getImei() + "\nMemoria: " + getMemoria();
 	}
 }

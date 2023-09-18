@@ -29,7 +29,7 @@ public class Cuffie extends Prodotto{
 	
 	@Override
 	public String toString() {
-		return "\ncolore: " + getColore() + "\nwireless: " + getWireless();
+		return "Nome prodotto: " + getNome() + "\ncodice: " + getCodice() + "\nmarca: " + getMarca() + "\nprezzo: " + getPrezzo() + "\nmarca: " + getMarca() + "\niva: " + getIva() + "\nPrezzo + iva: " + calcoloPrezzoConIva(getPrezzo(), getIva()) +  "\nColore: " + getColore() + "\nWireless: " + (getWireless() ? "Sì" : "No" );
 	}
 
 }

@@ -57,15 +57,15 @@ public class Prodotto {
 		this.iva = iva;
 	}
 	
-//	public float calcoloPrezzoConIva() {
-//		float prezzoConIva = prezzo + (prezzo * iva / 100);
-//		System.out.println(prezzoConIva);
-//		return prezzoConIva;
-//	}
+	public float calcoloPrezzoConIva(float prezzo, int iva) {
+		float prezzoConIva = prezzo + (prezzo * iva / 100);
+		// System.out.println(prezzoConIva);
+		return prezzoConIva;
+	}
 
 	@Override
 	public String toString() {
-		return "Nome prodotto: " + getNome() + "\ncodice: " + getCodice() + "\nmarca: " + getMarca() + "\nprezzo: " + getPrezzo() + "\nmarca: " + getMarca() + "\niva: " + getIva();
+		return "Nome prodotto: " + getNome() + "\ncodice: " + getCodice() + "\nmarca: " + getMarca() + "\nprezzo: " + getPrezzo() + "\nmarca: " + getMarca() + "\niva: " + getIva() + "\nPrezzo + iva: " + calcoloPrezzoConIva(prezzo, iva);
 	}
 	
 	

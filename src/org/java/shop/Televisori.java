@@ -29,6 +29,6 @@ public class Televisori extends Prodotto{
 
 	@Override
 	public String toString() {
-		return "\ndimensioni: " + getDimensioni() + "\nsmart: " + getSmart();
+		return "Nome prodotto: " + getNome() + "\ncodice: " + getCodice() + "\nmarca: " + getMarca() + "\nprezzo: " + getPrezzo() + "\nmarca: " + getMarca() + "\niva: " + getIva() + "\nPrezzo + iva: " + calcoloPrezzoConIva(getPrezzo(), getIva()) +  "\nDimensioni: " + getDimensioni() + "\nSmart: " + (getSmart() ? "Sì" : "No" );
 	}
 }
